@@ -7,6 +7,7 @@
 # Copyright 2011-2012, Phil Cohen
 #
 
+default["monit"]["version"] = "5.5"
 
 # Delay the start of polling when the service is started
 default["monit"]["start_delay"] = 0
